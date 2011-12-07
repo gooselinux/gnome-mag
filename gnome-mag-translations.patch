@@ -1,0 +1,746 @@
+diff -urN a/po/kn.po b/po/kn.po
+--- a/po/kn.po	2010-05-06 16:33:32.819154790 +0530
++++ b/po/kn.po	2010-05-06 16:33:55.672663495 +0530
+@@ -7,7 +7,7 @@
+ msgstr ""
+ "Project-Id-Version: kn\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2007-11-27 04:16+0000\n"
++"POT-Creation-Date: 2010-03-29 13:10+0530\n"
+ "PO-Revision-Date: 2008-08-29 13:53+0530\n"
+ "Last-Translator: Shankar Prasad <svenkate@redhat.com>\n"
+ "Language-Team: Kannada <en@li.org>\n"
+@@ -39,131 +39,152 @@
+ msgid "_Preferences"
+ msgstr "ಆದ್ಯತೆಗಳು(_P)"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:1
++#: ../colorblind/data/colorblind-prefs.ui.h:1
+ msgid "<b>Default Filter</b>"
+-msgstr "<b>ಡೀಫಾಲ್ಟ್‍ ಫಿಲ್ಟರ್</b>"
++msgstr "<b>ಪೂರ್ವನಿಯೋಜಿತ ಫಿಲ್ಟರ್</b>"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:2
++#: ../colorblind/data/colorblind-prefs.ui.h:2
+ msgid "<b>Filters</b>"
+ msgstr "<b>ಫಿಲ್ಟರುಗಳು</b>"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:3
++#: ../colorblind/data/colorblind-prefs.ui.h:3
+ msgid "<b>Shortcut</b>"
+ msgstr "<b>ಶಾರ್ಟ್-ಕಟ್</b>"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:4
++#: ../colorblind/data/colorblind-prefs.ui.h:4
+ msgid ""
+ "<i>This is the filter that will be used when enabling/disabling the filters."
+ "</i>"
+-msgstr "<i>ಫಿಲ್ಟರುಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲು/ನಿಷ್ಕ್ರಿಯಗೊಳಿಸುವಾಗ ಈ ಫಿಲ್ಟರನ್ನು ಬಳಸಲಾಗುತ್ತದೆ.</i>"
++msgstr ""
++"<i>ಫಿಲ್ಟರುಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲು/ನಿಷ್ಕ್ರಿಯಗೊಳಿಸುವಾಗ ಈ ಫಿಲ್ಟರನ್ನು ಬಳಸಲಾಗುತ್ತದೆ.</i>"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:5
++#: ../colorblind/data/colorblind-prefs.ui.h:5
+ msgid "Colorblind Filters Preferences"
+ msgstr "ಬಣ್ಣಗುರುಡು ಫಿಲ್ಟರಿನ ಆದ್ಯತೆಗಳು"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:6
+-msgid "Configure the filter being used as default when the filters are disabled."
+-msgstr "ಫಿಲ್ಟರುಗಳನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿದ್ದಾಗ, ಡೀಫಾಲ್ಟ್‍ ಫಿಲ್ಟರಾಗಿ ಬಳಸುತ್ತಿರುವುದನ್ನು ಸಂರಚಿಸಿ."
++#: ../colorblind/data/colorblind-prefs.ui.h:6
++msgid ""
++"Configure the filter being used as default when the filters are disabled."
++msgstr ""
++"ಫಿಲ್ಟರುಗಳನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿದ್ದಾಗ, ಪೂರ್ವನಿಯೋಜಿತ ಫಿಲ್ಟರಾಗಿ ಬಳಸುತ್ತಿರುವುದನ್ನು ಸಂರಚಿಸಿ."
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:7
++#: ../colorblind/data/colorblind-prefs.ui.h:7
+ msgid "Enable/Disable Filters:"
+ msgstr "ಫಿಲ್ಟರನ್ನು ಸಕ್ರಿಯ/ನಿಷ್ಕ್ರಿಯಗೊಳಿಸು:"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:8
++#: ../colorblind/data/colorblind-prefs.ui.h:8
+ msgid "Filter:"
+ msgstr "ಫಿಲ್ಟರ್:"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:9
+-#: ../colorblind/ui/ColorblindPreferencesUI.py:219
++#: ../colorblind/data/colorblind-prefs.ui.h:9
++#: ../colorblind/ui/ColorblindPreferencesUI.py:220
+ msgid "Negative Hue Shift"
+ msgstr "ಋಣಾತ್ಮಕ ಹ್ಯೂ ಬದಲಾವಣೆ"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:10
+-#: ../colorblind/ui/ColorblindPreferencesUI.py:218
++#: ../colorblind/data/colorblind-prefs.ui.h:10
++#: ../colorblind/ui/ColorblindPreferencesUI.py:219
+ msgid "Positive Hue Shift"
+ msgstr "ಧನಾತ್ಮಕ ಹ್ಯೂ ಬದಲಾವಣೆ"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:11
++#: ../colorblind/data/colorblind-prefs.ui.h:11
+ msgid "Select Next Filter:"
+ msgstr "ಮುಂದಿನ ಫಿಲ್ಟರನ್ನು ಆಯ್ಕೆ ಮಾಡಿ:"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:12
+-#: ../colorblind/ui/ColorblindPreferencesUI.py:217
++#: ../colorblind/data/colorblind-prefs.ui.h:12
++#: ../colorblind/ui/ColorblindPreferencesUI.py:218
+ msgid "Selective Blue Desaturation"
+ msgstr "ಆಯ್ಕಾತ್ಮಕ ನೀಲಿ ಡಿಸ್ಯಾಚುರೇಶನ್ (ಬಣ್ಣವನ್ನು ತಿಳಿಗೊಳಿಸುವಿಕೆ)"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:13
+-#: ../colorblind/ui/ColorblindPreferencesUI.py:214
++#: ../colorblind/data/colorblind-prefs.ui.h:13
++#: ../colorblind/ui/ColorblindPreferencesUI.py:215
+ msgid "Selective Blue Saturation"
+ msgstr "ಆಯ್ಕಾತ್ಮಕ ನೀಲಿ ಸ್ಯಾಚುರೇಶನ್ (ಬಣ್ಣವನ್ನು ಗಾಢಗೊಳಿಸುವಿಕೆ)"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:14
+-#: ../colorblind/ui/ColorblindPreferencesUI.py:216
++#: ../colorblind/data/colorblind-prefs.ui.h:14
++#: ../colorblind/ui/ColorblindPreferencesUI.py:217
+ msgid "Selective Green Desaturation"
+ msgstr "ಆಯ್ಕಾತ್ಮಕ ಹಸಿರು ಡಿಸ್ಯಾಚುರೇಶನ್ (ಬಣ್ಣವನ್ನು ತಿಳಿಗೊಳಿಸುವಿಕೆ)"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:15
+-#: ../colorblind/ui/ColorblindPreferencesUI.py:213
++#: ../colorblind/data/colorblind-prefs.ui.h:15
++#: ../colorblind/ui/ColorblindPreferencesUI.py:214
+ msgid "Selective Green Saturation"
+ msgstr "ಆಯ್ಕಾತ್ಮಕ ಹಸಿರು ಸ್ಯಾಚುರೇಶನ್ (ಬಣ್ಣವನ್ನು ಗಾಢಗೊಳಿಸುವಿಕೆ)"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:16
+-#: ../colorblind/ui/ColorblindPreferencesUI.py:215
++#: ../colorblind/data/colorblind-prefs.ui.h:16
++#: ../colorblind/ui/ColorblindPreferencesUI.py:216
+ msgid "Selective Red Desaturation"
+ msgstr "ಆಯ್ಕಾತ್ಮಕ ಕೆಂಪು ಡಿಸ್ಯಾಚುರೇಶನ್ (ಬಣ್ಣವನ್ನು ತಿಳಿಗೊಳಿಸುವಿಕೆ)"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:17
+-#: ../colorblind/ui/ColorblindPreferencesUI.py:212
++#: ../colorblind/data/colorblind-prefs.ui.h:17
++#: ../colorblind/ui/ColorblindPreferencesUI.py:213
+ msgid "Selective Red Saturation"
+ msgstr "ಆಯ್ಕಾತ್ಮಕ ಕೆಂಪು ಸ್ಯಾಚುರೇಶನ್ (ಬಣ್ಣವನ್ನು ಗಾಢಗೊಳಿಸುವಿಕೆ)"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:18
++#: ../colorblind/data/colorblind-prefs.ui.h:18
+ msgid ""
+ "This filter completely desaturates the blue color when this is the "
+ "predominant pixel color in the image."
+-msgstr "ಚಿತ್ರದಲ್ಲಿ ಈ ಪಿಕ್ಸೆಲ್ ಬಣ್ಣವು ಪ್ರಧಾನವಾಗಿದ್ದಾಗ ಈ ಫಿಲ್ಟರ್ ನೀಲಿ ಬಣ್ಣವನ್ನು ಸಂಪೂರ್ಣವಾಗಿ ತಿಳಿಗೊಳಿಸುತ್ತದೆ."
++msgstr ""
++"ಚಿತ್ರದಲ್ಲಿ ಈ ಪಿಕ್ಸೆಲ್ ಬಣ್ಣವು ಪ್ರಧಾನವಾಗಿದ್ದಾಗ ಈ ಫಿಲ್ಟರ್ ನೀಲಿ ಬಣ್ಣವನ್ನು ಸಂಪೂರ್ಣವಾಗಿ "
++"ತಿಳಿಗೊಳಿಸುತ್ತದೆ."
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:19
++#: ../colorblind/data/colorblind-prefs.ui.h:19
+ msgid ""
+ "This filter completely desaturates the green color when this is the "
+ "predominant pixel color in the image."
+-msgstr "ಚಿತ್ರದಲ್ಲಿ ಈ ಪಿಕ್ಸೆಲ್ ಬಣ್ಣವು ಪ್ರಧಾನವಾಗಿದ್ದಾಗ ಈ ಫಿಲ್ಟರ್ ಹಸಿರು ಬಣ್ಣವನ್ನು ಸಂಪೂರ್ಣವಾಗಿ ತಿಳಿಗೊಳಿಸುತ್ತದೆ."
++msgstr ""
++"ಚಿತ್ರದಲ್ಲಿ ಈ ಪಿಕ್ಸೆಲ್ ಬಣ್ಣವು ಪ್ರಧಾನವಾಗಿದ್ದಾಗ ಈ ಫಿಲ್ಟರ್ ಹಸಿರು ಬಣ್ಣವನ್ನು ಸಂಪೂರ್ಣವಾಗಿ "
++"ತಿಳಿಗೊಳಿಸುತ್ತದೆ."
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:20
++#: ../colorblind/data/colorblind-prefs.ui.h:20
+ msgid ""
+ "This filter completely desaturates the red color when this is the "
+ "predominant pixel color in the image."
+-msgstr "ಚಿತ್ರದಲ್ಲಿ ಈ ಪಿಕ್ಸೆಲ್ ಬಣ್ಣವು ಪ್ರಧಾನವಾಗಿದ್ದಾಗ ಈ ಫಿಲ್ಟರ್ ಕೆಂಪು ಬಣ್ಣವನ್ನು ಸಂಪೂರ್ಣವಾಗಿ ತಿಳಿಗೊಳಿಸುತ್ತದೆ."
++msgstr ""
++"ಚಿತ್ರದಲ್ಲಿ ಈ ಪಿಕ್ಸೆಲ್ ಬಣ್ಣವು ಪ್ರಧಾನವಾಗಿದ್ದಾಗ ಈ ಫಿಲ್ಟರ್ ಕೆಂಪು ಬಣ್ಣವನ್ನು ಸಂಪೂರ್ಣವಾಗಿ "
++"ತಿಳಿಗೊಳಿಸುತ್ತದೆ."
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:21
++#: ../colorblind/data/colorblind-prefs.ui.h:21
+ msgid ""
+ "This filter completely saturates the blue color when this is the predominant "
+ "pixel color in the image."
+-msgstr "ಚಿತ್ರದಲ್ಲಿ ಈ ಪಿಕ್ಸೆಲ್ ಬಣ್ಣವು ಪ್ರಧಾನವಾಗಿದ್ದಾಗ ಈ ಫಿಲ್ಟರ್ ನೀಲಿ ಬಣ್ಣವನ್ನು ಸಂಪೂರ್ಣವಾಗಿ ಗಾಢಗೊಳಿಸುತ್ತದೆ."
++msgstr ""
++"ಚಿತ್ರದಲ್ಲಿ ಈ ಪಿಕ್ಸೆಲ್ ಬಣ್ಣವು ಪ್ರಧಾನವಾಗಿದ್ದಾಗ ಈ ಫಿಲ್ಟರ್ ನೀಲಿ ಬಣ್ಣವನ್ನು ಸಂಪೂರ್ಣವಾಗಿ "
++"ಗಾಢಗೊಳಿಸುತ್ತದೆ."
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:22
++#: ../colorblind/data/colorblind-prefs.ui.h:22
+ msgid ""
+ "This filter completely saturates the green color when this is the "
+ "predominant pixel color in the image."
+-msgstr "ಚಿತ್ರದಲ್ಲಿ ಈ ಪಿಕ್ಸೆಲ್ ಬಣ್ಣವು ಪ್ರಧಾನವಾಗಿದ್ದಾಗ ಈ ಫಿಲ್ಟರ್ ಹಸಿರು ಬಣ್ಣವನ್ನು ಸಂಪೂರ್ಣವಾಗಿ ಗಾಢಗೊಳಿಸುತ್ತದೆ."
++msgstr ""
++"ಚಿತ್ರದಲ್ಲಿ ಈ ಪಿಕ್ಸೆಲ್ ಬಣ್ಣವು ಪ್ರಧಾನವಾಗಿದ್ದಾಗ ಈ ಫಿಲ್ಟರ್ ಹಸಿರು ಬಣ್ಣವನ್ನು ಸಂಪೂರ್ಣವಾಗಿ "
++"ಗಾಢಗೊಳಿಸುತ್ತದೆ."
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:23
++#: ../colorblind/data/colorblind-prefs.ui.h:23
+ msgid ""
+ "This filter completely saturates the red color when this is the predominant "
+ "pixel color in the image."
+-msgstr "ಚಿತ್ರದಲ್ಲಿ ಈ ಪಿಕ್ಸೆಲ್ ಬಣ್ಣವು ಪ್ರಧಾನವಾಗಿದ್ದಾಗ ಈ ಫಿಲ್ಟರ್ ಕೆಂಪು ಬಣ್ಣವನ್ನು ಸಂಪೂರ್ಣವಾಗಿ ಗಾಢಗೊಳಿಸುತ್ತದೆ."
++msgstr ""
++"ಚಿತ್ರದಲ್ಲಿ ಈ ಪಿಕ್ಸೆಲ್ ಬಣ್ಣವು ಪ್ರಧಾನವಾಗಿದ್ದಾಗ ಈ ಫಿಲ್ಟರ್ ಕೆಂಪು ಬಣ್ಣವನ್ನು ಸಂಪೂರ್ಣವಾಗಿ "
++"ಗಾಢಗೊಳಿಸುತ್ತದೆ."
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:24
++#: ../colorblind/data/colorblind-prefs.ui.h:24
+ msgid ""
+ "Transforms the colors Red to Blue, Green to Red and Blue to Green, carrying "
+ "a potentially ambiguous set of colors to a different band of the spectrum."
+-msgstr "ಬಣ್ಣಗಳನ್ನು ಕೆಂಪಿನಿಂದ ನೀಲಿ, ಹಸಿರಿನಿಂದ ಕೆಂಪು ಹಾಗು ನೀಲಿಯಿಂದ ಹಸಿರಿಗೆ ಬದಲಾಯಿಸುತ್ತದೆ, ಆ ಮೂಲಕ ಒಂದು ಸಾಕಷ್ಟು ಅಸ್ಪಷ್ಟ್ ಬಣ್ಣಗಳ ಜೋಡಿಯನ್ನು ವರ್ಣಪಂಕ್ತಿಯ ಬೇರೊಂದು ಗುಂಪಿಗೆ ವರ್ಗಾಯಿಸುತ್ತದೆ."
++msgstr ""
++"ಬಣ್ಣಗಳನ್ನು ಕೆಂಪಿನಿಂದ ನೀಲಿ, ಹಸಿರಿನಿಂದ ಕೆಂಪು ಹಾಗು ನೀಲಿಯಿಂದ ಹಸಿರಿಗೆ ಬದಲಾಯಿಸುತ್ತದೆ, "
++"ಆ ಮೂಲಕ ಒಂದು ಸಾಕಷ್ಟು ಅಸ್ಪಷ್ಟ್ ಬಣ್ಣಗಳ ಜೋಡಿಯನ್ನು ವರ್ಣಪಂಕ್ತಿಯ ಬೇರೊಂದು ಗುಂಪಿಗೆ "
++"ವರ್ಗಾಯಿಸುತ್ತದೆ."
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:25
++#: ../colorblind/data/colorblind-prefs.ui.h:25
+ msgid ""
+ "Transforms the colors Red to Green, Green to Blue and Blue to Red, carrying "
+ "a potentially ambiguous set of colors to a different band of the spectrum."
+-msgstr "ಬಣ್ಣಗಳನ್ನು ಕೆಂಪಿನಿಂದ ಹಸಿರು, ಹಸಿರಿನಿಂದ ನೀಲಿ ಹಾಗು ನೀಲಿಯಿಂದ ಕೆಂಪಿಗೆ ಬದಲಾಯಿಸುತ್ತದೆ, ಆ ಮೂಲಕ ಒಂದು ಸಾಕಷ್ಟು ಅಸ್ಪಷ್ಟ್ ಬಣ್ಣಗಳ ಜೋಡಿಯನ್ನು ವರ್ಣಪಂಕ್ತಿಯ ಬೇರೊಂದು ಗುಂಪಿಗೆ ವರ್ಗಾಯಿಸುತ್ತದೆ."
++msgstr ""
++"ಬಣ್ಣಗಳನ್ನು ಕೆಂಪಿನಿಂದ ಹಸಿರು, ಹಸಿರಿನಿಂದ ನೀಲಿ ಹಾಗು ನೀಲಿಯಿಂದ ಕೆಂಪಿಗೆ ಬದಲಾಯಿಸುತ್ತದೆ, "
++"ಆ ಮೂಲಕ ಒಂದು ಸಾಕಷ್ಟು ಅಸ್ಪಷ್ಟ್ ಬಣ್ಣಗಳ ಜೋಡಿಯನ್ನು ವರ್ಣಪಂಕ್ತಿಯ ಬೇರೊಂದು ಗುಂಪಿಗೆ "
++"ವರ್ಗಾಯಿಸುತ್ತದೆ."
+ 
+ #: ../colorblind/ui/WindowUI.py:36
+ msgid "_File"
+@@ -185,7 +206,9 @@
+ msgid ""
+ "Image filters for the colorblind. This is applet is part of gnome-mag, a "
+ "magnification service for GNOME."
+-msgstr "ಬಣ್ಣಗುರುಡನ್ನು ಹೊಂದಿರುವವರಿಗಾಗಿರುವ ಚಿತ್ರದ ಫಿಲ್ಟರ್. ಈ ಅನ್ವಯವು gnome-mag ನ ಒಂದು ಭಾಗವಾಗಿದ್ದು, GNOME ಗಾಗಿನ ಚಿತ್ರ-ಹಿಗ್ಗಿಸುವ ಒಂದು ಸಾಧನವಾಗಿದೆ."
++msgstr ""
++"ಬಣ್ಣಗುರುಡನ್ನು ಹೊಂದಿರುವವರಿಗಾಗಿರುವ ಚಿತ್ರದ ಫಿಲ್ಟರ್. ಈ ಅನ್ವಯವು gnome-mag ನ ಒಂದು "
++"ಭಾಗವಾಗಿದ್ದು, GNOME ಗಾಗಿನ ಚಿತ್ರ-ಹಿಗ್ಗಿಸುವ ಒಂದು ಸಾಧನವಾಗಿದೆ."
+ 
+ #: ../colorblind/ui/About.py:28
+ msgid "gnome-mag website"
+@@ -195,7 +218,9 @@
+ #. translators: These appear in the About dialog, usual format applies.
+ #: ../colorblind/ui/About.py:36
+ msgid "translator-credits"
+-msgstr "ರೇಣುಕಾ ಪ್ರಸಾದ್ <rennie606@yahoo.co.in>, ಶಂಕರ್ ಪ್ರಸಾದ್ ಎಂ. ವಿ. <svenkate@redhat.com>"
++msgstr ""
++"ರೇಣುಕಾ ಪ್ರಸಾದ್ <rennie606@yahoo.co.in>, ಶಂಕರ್ ಪ್ರಸಾದ್ ಎಂ. ವಿ. <svenkate@redhat."
++"com>"
+ 
+ #: ../colorblind/ui/ColorblindPreferencesUI.py:105
+ msgid "New accelerator..."
+@@ -208,7 +233,8 @@
+ "using this key.\n"
+ "Please try with a key such as Control, Alt or Shift at the same time.\n"
+ msgstr ""
+-"\"%s\" ಶಾರ್ಟ್-ಕಟ್ಟನ್ನು ಬಳಸುವಂತಿಲ್ಲ ಏಕೆಂದರೆ ಈ ಕೀಲಿಯನ್ನು ಬಳಸಿಕೊಂಡು ಟೈಪ್‌ ಮಾಡುವುದು ಅಸಾಧ್ಯವಾಗುತ್ತದೆ.\n"
++"\"%s\" ಶಾರ್ಟ್-ಕಟ್ಟನ್ನು ಬಳಸುವಂತಿಲ್ಲ ಏಕೆಂದರೆ ಈ ಕೀಲಿಯನ್ನು ಬಳಸಿಕೊಂಡು ಟೈಪ್‌ ಮಾಡುವುದು "
++"ಅಸಾಧ್ಯವಾಗುತ್ತದೆ.\n"
+ "ದಯವಿಟ್ಟು ಇದೆ ಸಮಯದಲ್ಲಿ Control, Alt ಅಥವ Shift ನಂತಹ ಕೀಲಿಯೊಂದಿಗೆ ಪ್ರಯತ್ನಿಸಿ.\n"
+ 
+ #: ../magnifier/GNOME_Magnifier.server.in.in.h:1
+@@ -223,4 +249,3 @@
+ #, c-format
+ msgid "Can't open display: DISPLAY is not set"
+ msgstr "ಪ್ರದರ್ಶಕವನ್ನು ತೆರೆಯಲಾಗಿಲ್ಲ: DISPLAY ಅನ್ನು ಅಣಿಗೊಳಿಸಲಾಗಿಲ್ಲ"
+-
+diff -urN a/po/ta.po b/po/ta.po
+--- a/po/ta.po	2010-05-06 16:33:32.827154429 +0530
++++ b/po/ta.po	2010-05-06 16:33:56.072362554 +0530
+@@ -3,19 +3,19 @@
+ # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+ #
+ # Jayaradha N <jaya@pune.redhat.com>, 2004.
+-# Dr.T.Vasudevan <agnihot3@gmail.com>, 2007.
++# Dr.T.Vasudevan <agnihot3@gmail.com>, 2007, 2010.
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: gnome-mag.HEAD\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2007-08-28 04:35+0100\n"
+-"PO-Revision-Date: 2007-08-28 16:09+0530\n"
+-"Last-Translator: Dr.T.Vasudevan <agnihot3@gmail.com>\n"
+-"Language-Team: TAMIL <ubuntu-l10n-tam@lists.ubuntu.com>\n"
++"POT-Creation-Date: 2010-03-29 13:10+0530\n"
++"PO-Revision-Date: 2010-04-15 13:55+0530\n"
++"Last-Translator: \n"
++"Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+-"X-Generator: KBabel 1.11.4\n"
++"X-Generator: Lokalize 1.0\n"
+ "Plural-Forms: Plural-Forms: nplurals=2; plural=(n != 1);\n"
+ "\n"
+ 
+@@ -34,116 +34,116 @@
+ #: ../colorblind/data/Colorblind_Applet.xml.h:1
+ #: ../colorblind/ui/WindowUI.py:40
+ msgid "_About"
+-msgstr "_பற்றி"
++msgstr "பற்றி (_A)"
+ 
+ #: ../colorblind/data/Colorblind_Applet.xml.h:2
+ #: ../colorblind/ui/WindowUI.py:39
+ msgid "_Preferences"
+-msgstr "_ம முன்னுரிமைகள்"
++msgstr "முன்னுரிமைகள் (_P)"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:1
++#: ../colorblind/data/colorblind-prefs.ui.h:1
+ msgid "<b>Default Filter</b>"
+ msgstr "<b>முன்னிருப்பு வடிப்பி</b>"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:2
++#: ../colorblind/data/colorblind-prefs.ui.h:2
+ msgid "<b>Filters</b>"
+ msgstr "<b>வடிப்பிகள்</b>"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:3
++#: ../colorblind/data/colorblind-prefs.ui.h:3
+ msgid "<b>Shortcut</b>"
+ msgstr "<b>குறுக்கு விசை</b>"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:4
++#: ../colorblind/data/colorblind-prefs.ui.h:4
+ msgid ""
+ "<i>This is the filter that will be used when enabling/disabling the filters."
+ "</i>"
+ msgstr "<i>வடிப்பிகளை செயல் ஆக்கம்/நீக்கம் செய்யும் போது பயன் ஆகும் வடிப்பி இது</i>"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:5
++#: ../colorblind/data/colorblind-prefs.ui.h:5
+ msgid "Colorblind Filters Preferences"
+ msgstr "வண்ண பார்வையின்மை வடிப்பி விருப்பங்கள்"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:6
++#: ../colorblind/data/colorblind-prefs.ui.h:6
+ msgid "Configure the filter being used as default when the filters are disabled."
+ msgstr "வடிப்பிகள் செயல் நீக்கிய போது இப்போதிய வடிப்பியை முன்னிருப்பாக வடிவமைக்கவும்."
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:7
++#: ../colorblind/data/colorblind-prefs.ui.h:7
+ msgid "Enable/Disable Filters:"
+ msgstr "வடிப்பிகளை செயல் ஆக்கம்/நீக்கம் செய்க:"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:8
++#: ../colorblind/data/colorblind-prefs.ui.h:8
+ msgid "Filter:"
+ msgstr "வடிப்பி:"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:9
+-#: ../colorblind/ui/ColorblindPreferencesUI.py:219
++#: ../colorblind/data/colorblind-prefs.ui.h:9
++#: ../colorblind/ui/ColorblindPreferencesUI.py:220
+ msgid "Negative Hue Shift"
+ msgstr "பூஜ்யத்துக்கு கீழான வண்ணச்சாயல் நகர்வு"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:10
+-#: ../colorblind/ui/ColorblindPreferencesUI.py:218
++#: ../colorblind/data/colorblind-prefs.ui.h:10
++#: ../colorblind/ui/ColorblindPreferencesUI.py:219
+ msgid "Positive Hue Shift"
+ msgstr "பூஜ்யத்துக்கு மேலான வண்ணச்சாயல் நகர்வு"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:11
++#: ../colorblind/data/colorblind-prefs.ui.h:11
+ msgid "Select Next Filter:"
+ msgstr "அடுத்த வடிகட்டியை தேர்ந்தெடுக்கவும்:"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:12
+-#: ../colorblind/ui/ColorblindPreferencesUI.py:217
++#: ../colorblind/data/colorblind-prefs.ui.h:12
++#: ../colorblind/ui/ColorblindPreferencesUI.py:218
+ msgid "Selective Blue Desaturation"
+ msgstr "தேர்ந்தெடுத்த நீல தெவிட்ட நீக்கம்."
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:13
+-#: ../colorblind/ui/ColorblindPreferencesUI.py:214
++#: ../colorblind/data/colorblind-prefs.ui.h:13
++#: ../colorblind/ui/ColorblindPreferencesUI.py:215
+ msgid "Selective Blue Saturation"
+ msgstr "தனி நீல தெவிட்ட ஆக்கம்."
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:14
+-#: ../colorblind/ui/ColorblindPreferencesUI.py:216
++#: ../colorblind/data/colorblind-prefs.ui.h:14
++#: ../colorblind/ui/ColorblindPreferencesUI.py:217
+ msgid "Selective Green Desaturation"
+ msgstr "தனி பச்சை தெவிட்ட நீக்கம்."
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:15
+-#: ../colorblind/ui/ColorblindPreferencesUI.py:213
++#: ../colorblind/data/colorblind-prefs.ui.h:15
++#: ../colorblind/ui/ColorblindPreferencesUI.py:214
+ msgid "Selective Green Saturation"
+ msgstr "தனி பச்சை தெவிட்ட ஆக்கம்."
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:16
+-#: ../colorblind/ui/ColorblindPreferencesUI.py:215
++#: ../colorblind/data/colorblind-prefs.ui.h:16
++#: ../colorblind/ui/ColorblindPreferencesUI.py:216
+ msgid "Selective Red Desaturation"
+ msgstr "தனி சிவப்பு தெவிட்ட நீக்கம்."
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:17
+-#: ../colorblind/ui/ColorblindPreferencesUI.py:212
++#: ../colorblind/data/colorblind-prefs.ui.h:17
++#: ../colorblind/ui/ColorblindPreferencesUI.py:213
+ msgid "Selective Red Saturation"
+ msgstr "தனி சிவப்பு தெவிட்ட ஆக்கம்."
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:18
++#: ../colorblind/data/colorblind-prefs.ui.h:18
+ msgid ""
+ "This filter completely desaturates the blue color when this is the "
+ "predominant pixel color in the image."
+ msgstr ""
+-"இந்த வடிப்பி பிம்பத்தில் நீலமே முக்கிய படத்துணுக்கு வண்ணமாக உள்ளபோது அதை முழுமையாக தெவிட்ட நீக்கம் "
+-"செய்யும்."
++"இந்த வடிப்பி பிம்பத்தில் நீலமே முக்கிய படத்துணுக்கு வண்ணமாக உள்ளபோது அதை முழுமையாக "
++"தெவிட்ட நீக்கம் செய்யும்."
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:19
++#: ../colorblind/data/colorblind-prefs.ui.h:19
+ msgid ""
+ "This filter completely desaturates the green color when this is the "
+ "predominant pixel color in the image."
+ msgstr ""
+-"இந்த வடிப்பி பிம்பத்தில் பச்சையே முக்கிய படத்துணுக்கு வண்ணமாக உள்ளபோது அதை முழுமையாக தெவிட்ட நீக்கம் "
+-"செய்யும்."
++"இந்த வடிப்பி பிம்பத்தில் பச்சையே முக்கிய படத்துணுக்கு வண்ணமாக உள்ளபோது அதை முழுமையாக "
++"தெவிட்ட நீக்கம் செய்யும்."
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:20
++#: ../colorblind/data/colorblind-prefs.ui.h:20
+ msgid ""
+ "This filter completely desaturates the red color when this is the "
+ "predominant pixel color in the image."
+ msgstr ""
+-"இந்த வடிப்பி பிம்பத்தில் சிவப்பே முக்கிய படத்துணுக்கு வண்ணமாக உள்ளபோது அதை முழுமையாக தெவிட்ட நீக்கம் "
+-"செய்யும்."
++"இந்த வடிப்பி பிம்பத்தில் சிவப்பே முக்கிய படத்துணுக்கு வண்ணமாக உள்ளபோது அதை முழுமையாக "
++"தெவிட்ட நீக்கம் செய்யும்."
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:21
++#: ../colorblind/data/colorblind-prefs.ui.h:21
+ msgid ""
+ "This filter completely saturates the blue color when this is the predominant "
+ "pixel color in the image."
+@@ -151,7 +151,7 @@
+ "பிம்பத்தில் பிரதானமான படத்துணுக்கு நீல வண்ணமாக உள்ளபோது இந்த வடிப்பி நீல வண்ணத்தை "
+ "முழுமையாக தெவிட்ட ஆக்கம் செய்கிறது."
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:22
++#: ../colorblind/data/colorblind-prefs.ui.h:22
+ msgid ""
+ "This filter completely saturates the green color when this is the "
+ "predominant pixel color in the image."
+@@ -159,7 +159,7 @@
+ "பிம்பத்தில் பிரதானமான படத்துணுக்கு பச்சை வண்ணமாக உள்ளபோது இந்த வடிப்பி பச்சை வண்ணத்தை "
+ "முழுமையாக தெவிட்ட ஆக்கம் செய்கிறது."
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:23
++#: ../colorblind/data/colorblind-prefs.ui.h:23
+ msgid ""
+ "This filter completely saturates the red color when this is the predominant "
+ "pixel color in the image."
+@@ -167,7 +167,7 @@
+ "பிம்பத்தில் பிரதானமான படத்துணுக்கு சிவப்பு வண்ணமாக உள்ளபோது இந்த வடிப்பி சிவப்பு வண்ணத்தை "
+ "முழுமையாக தெவிட்ட ஆக்கம் செய்கிறது."
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:24
++#: ../colorblind/data/colorblind-prefs.ui.h:24
+ msgid ""
+ "Transforms the colors Red to Blue, Green to Red and Blue to Green, carrying "
+ "a potentially ambiguous set of colors to a different band of the spectrum."
+@@ -175,7 +175,7 @@
+ "சிவப்பை நீலமாகவும், பச்சையை சிவப்பாகவும், நீலத்தை பச்சையாகவும் மாற்றுகிறது. இது "
+ "ஐயப்பாடான வண்ணங்களை வேறு அலைவரிசையுள்ள வண்ணங்களாக ஆக்குகிறது."
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:25
++#: ../colorblind/data/colorblind-prefs.ui.h:25
+ msgid ""
+ "Transforms the colors Red to Green, Green to Blue and Blue to Red, carrying "
+ "a potentially ambiguous set of colors to a different band of the spectrum."
+@@ -185,15 +185,15 @@
+ 
+ #: ../colorblind/ui/WindowUI.py:36
+ msgid "_File"
+-msgstr "_க கோப்பு"
++msgstr "கோப்பு (_F)"
+ 
+ #: ../colorblind/ui/WindowUI.py:37
+ msgid "_Quit"
+-msgstr "_வ வெளியேறு"
++msgstr "வெளிச்செல் (_Q)"
+ 
+ #: ../colorblind/ui/WindowUI.py:38
+ msgid "_Edit"
+-msgstr "_த திருத்து"
++msgstr "திருத்துக (_E)"
+ 
+ #: ../colorblind/ui/About.py:22
+ msgid "Colorblind Applet"
+@@ -215,7 +215,9 @@
+ #. translators: These appear in the About dialog, usual format applies.
+ #: ../colorblind/ui/About.py:36
+ msgid "translator-credits"
+-msgstr "மொழிபெயர்ப்பாளர்-நன்றி அறிதல்."
++msgstr ""
++"I. Felix <ifelix@redhat.com>"
++"Dr.T.Vasudevan <agnihot3@gmail.com>"
+ 
+ #: ../colorblind/ui/ColorblindPreferencesUI.py:105
+ msgid "New accelerator..."
+diff -urN a/po/zh_CN.po b/po/zh_CN.po
+--- a/po/zh_CN.po	2010-05-06 16:33:32.818154211 +0530
++++ b/po/zh_CN.po	2010-05-06 16:33:55.341159834 +0530
+@@ -1,23 +1,25 @@
+-# SOME DESCRIPTIVE TITLE.
++# translation of zh_CN.po to Wei Liu
+ # Copyright (C) 2003 THE PACKAGE'S COPYRIGHT HOLDER
+ # This file is distributed under the same license as the PACKAGE package.
+-# Funda Wang <fundawang@linux.net.cn>, 2003.
+ #
++# Funda Wang <fundawang@linux.net.cn>, 2003.
++# Leah Liu <lliu@redhat.com>, 2010.
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: gnome-mag\n"
++"Project-Id-Version: zh_CN\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2007-08-28 04:35+0100\n"
+-"PO-Revision-Date: 2007-09-08 16:58+0800\n"
+-"Last-Translator: Yang Zhang <zyangmath@gmail.com>\n"
+-"Language-Team: zh_CN <i18n-translation@lists.linux.net.cn>\n"
++"POT-Creation-Date: 2010-03-29 13:10+0530\n"
++"PO-Revision-Date: 2010-04-08 19:10+1000\n"
++"Last-Translator: Leah Liu <lliu@redhat.com>\n"
++"Language-Team: Wei Liu\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
++"X-Generator: KBabel 1.11.4\n"
+ 
+ #: ../colorblind/GNOME_Magnifier_ColorblindApplet.server.in.in.h:1
+ msgid "Accessibility"
+-msgstr "辅助功能"
++msgstr "可访问性"
+ 
+ #: ../colorblind/GNOME_Magnifier_ColorblindApplet.server.in.in.h:2
+ msgid "Colorblind applet"
+@@ -37,150 +39,135 @@
+ msgid "_Preferences"
+ msgstr "首选项(_P)"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:1
++#: ../colorblind/data/colorblind-prefs.ui.h:1
+ msgid "<b>Default Filter</b>"
+ msgstr "<b>默认过滤器</b>"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:2
++#: ../colorblind/data/colorblind-prefs.ui.h:2
+ msgid "<b>Filters</b>"
+ msgstr "<b>过滤器</b>"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:3
++#: ../colorblind/data/colorblind-prefs.ui.h:3
+ msgid "<b>Shortcut</b>"
+ msgstr "<b>快捷键</b>"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:4
++#: ../colorblind/data/colorblind-prefs.ui.h:4
+ msgid ""
+ "<i>This is the filter that will be used when enabling/disabling the filters."
+ "</i>"
+-msgstr ""
+-"<i>这是在启用/禁用过滤器时使用的过滤器。</i>"
++msgstr "<i>这是在启用/禁用过滤器时使用的过滤器。</i>"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:5
++#: ../colorblind/data/colorblind-prefs.ui.h:5
+ msgid "Colorblind Filters Preferences"
+ msgstr "色盲过滤器首选项"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:6
+-msgid ""
+-"Configure the filter being used as default when the filters are disabled."
+-msgstr ""
+-"配置在过滤器被禁用时使用的默认过滤器。"
++#: ../colorblind/data/colorblind-prefs.ui.h:6
++msgid "Configure the filter being used as default when the filters are disabled."
++msgstr "配置在过滤器被禁用时使用的默认过滤器。"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:7
++#: ../colorblind/data/colorblind-prefs.ui.h:7
+ msgid "Enable/Disable Filters:"
+ msgstr "启用/禁用过滤器："
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:8
++#: ../colorblind/data/colorblind-prefs.ui.h:8
+ msgid "Filter:"
+ msgstr "过滤器："
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:9
+-#: ../colorblind/ui/ColorblindPreferencesUI.py:219
++#: ../colorblind/data/colorblind-prefs.ui.h:9
++#: ../colorblind/ui/ColorblindPreferencesUI.py:220
+ msgid "Negative Hue Shift"
+ msgstr "负向色调偏移"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:10
+-#: ../colorblind/ui/ColorblindPreferencesUI.py:218
++#: ../colorblind/data/colorblind-prefs.ui.h:10
++#: ../colorblind/ui/ColorblindPreferencesUI.py:219
+ msgid "Positive Hue Shift"
+ msgstr "正向色调偏移"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:11
++#: ../colorblind/data/colorblind-prefs.ui.h:11
+ msgid "Select Next Filter:"
+ msgstr "选择下一个过滤器："
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:12
+-#: ../colorblind/ui/ColorblindPreferencesUI.py:217
++#: ../colorblind/data/colorblind-prefs.ui.h:12
++#: ../colorblind/ui/ColorblindPreferencesUI.py:218
+ msgid "Selective Blue Desaturation"
+ msgstr "选择性的蓝色去饱和"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:13
+-#: ../colorblind/ui/ColorblindPreferencesUI.py:214
++#: ../colorblind/data/colorblind-prefs.ui.h:13
++#: ../colorblind/ui/ColorblindPreferencesUI.py:215
+ msgid "Selective Blue Saturation"
+ msgstr "选择性的蓝色饱和"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:14
+-#: ../colorblind/ui/ColorblindPreferencesUI.py:216
++#: ../colorblind/data/colorblind-prefs.ui.h:14
++#: ../colorblind/ui/ColorblindPreferencesUI.py:217
+ msgid "Selective Green Desaturation"
+ msgstr "选择性的绿色去饱和"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:15
+-#: ../colorblind/ui/ColorblindPreferencesUI.py:213
++#: ../colorblind/data/colorblind-prefs.ui.h:15
++#: ../colorblind/ui/ColorblindPreferencesUI.py:214
+ msgid "Selective Green Saturation"
+ msgstr "选择性的绿色饱和"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:16
+-#: ../colorblind/ui/ColorblindPreferencesUI.py:215
++#: ../colorblind/data/colorblind-prefs.ui.h:16
++#: ../colorblind/ui/ColorblindPreferencesUI.py:216
+ msgid "Selective Red Desaturation"
+ msgstr "选择性的红色去饱和"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:17
+-#: ../colorblind/ui/ColorblindPreferencesUI.py:212
++#: ../colorblind/data/colorblind-prefs.ui.h:17
++#: ../colorblind/ui/ColorblindPreferencesUI.py:213
+ msgid "Selective Red Saturation"
+ msgstr "选择性的红色饱和"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:18
++#: ../colorblind/data/colorblind-prefs.ui.h:18
+ msgid ""
+ "This filter completely desaturates the blue color when this is the "
+ "predominant pixel color in the image."
+-msgstr ""
+-"此过滤器在蓝色是图像的主色调时完全去饱和该色。"
++msgstr "此过滤器在蓝色是图像的主色调时完全去饱和该色。"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:19
++#: ../colorblind/data/colorblind-prefs.ui.h:19
+ msgid ""
+ "This filter completely desaturates the green color when this is the "
+ "predominant pixel color in the image."
+-msgstr ""
+-"此过滤器在绿色是图像的主色调时完全去饱和该色。"
+-
++msgstr "此过滤器在绿色是图像的主色调时完全去饱和该色。"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:20
++#: ../colorblind/data/colorblind-prefs.ui.h:20
+ msgid ""
+ "This filter completely desaturates the red color when this is the "
+ "predominant pixel color in the image."
+-msgstr ""
+-"此过滤器在红色是图像的主色调时完全去饱和该色。"
+-
++msgstr "此过滤器在红色是图像的主色调时完全去饱和该色。"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:21
++#: ../colorblind/data/colorblind-prefs.ui.h:21
+ msgid ""
+ "This filter completely saturates the blue color when this is the predominant "
+ "pixel color in the image."
+-msgstr ""
+-"此过滤器在蓝色是图像的主色调时完全饱和该色。"
+-
++msgstr "此过滤器在蓝色是图像的主色调时完全饱和该色。"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:22
++#: ../colorblind/data/colorblind-prefs.ui.h:22
+ msgid ""
+ "This filter completely saturates the green color when this is the "
+ "predominant pixel color in the image."
+-msgstr ""
+-"此过滤器在绿色是图像的主色调时完全饱和该色。"
+-
++msgstr "此过滤器在绿色是图像的主色调时完全饱和该色。"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:23
++#: ../colorblind/data/colorblind-prefs.ui.h:23
+ msgid ""
+ "This filter completely saturates the red color when this is the predominant "
+ "pixel color in the image."
+-msgstr ""
+-"此过滤器在红色是图像的主色调时完全饱和该色。"
+-
++msgstr "此过滤器在红色是图像的主色调时完全饱和该色。"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:24
++#: ../colorblind/data/colorblind-prefs.ui.h:24
+ msgid ""
+ "Transforms the colors Red to Blue, Green to Red and Blue to Green, carrying "
+ "a potentially ambiguous set of colors to a different band of the spectrum."
+ msgstr ""
+-"将颜色由红变蓝，由绿变红，由蓝变绿。以将可能无法分辨的颜色集移"
+-"动到一个不同的谱带。"
++"将颜色由红变蓝，由绿变红，由蓝变绿。以将可能无法分辨的颜色集移动到一个不同的"
++"谱带。"
+ 
+-#: ../colorblind/data/colorblind-prefs.glade.h:25
++#: ../colorblind/data/colorblind-prefs.ui.h:25
+ msgid ""
+ "Transforms the colors Red to Green, Green to Blue and Blue to Red, carrying "
+ "a potentially ambiguous set of colors to a different band of the spectrum."
+ msgstr ""
+-"将颜色由红变绿，由绿变蓝，由蓝变红。以将可能无法分辨的颜色集移"
+-"动到一个不同的谱带。"
+-
++"将颜色由红变绿，由绿变蓝，由蓝变红。以将可能无法分辨的颜色集移动到一个不同的"
++"谱带。"
+ 
+ #: ../colorblind/ui/WindowUI.py:36
+ msgid "_File"
+@@ -203,8 +190,8 @@
+ "Image filters for the colorblind. This is applet is part of gnome-mag, a "
+ "magnification service for GNOME."
+ msgstr ""
+-"为色盲使用的图像过滤器。此小程序是 gnome-mag 的一部份，gnome-mag "
+-"是 GNOME 放大镜服务。"
++"为色盲使用的图像过滤器。此小程序是 gnome-mag 的一部份，gnome-mag 是 GNOME 放"
++"大镜服务。"
+ 
+ #: ../colorblind/ui/About.py:28
+ msgid "gnome-mag website"
+@@ -242,3 +229,4 @@
+ #, c-format
+ msgid "Can't open display: DISPLAY is not set"
+ msgstr "无法打开显示：尚未设置 DISPLAY 变量"
++
